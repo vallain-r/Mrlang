@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 960px;
+	font-size: 14px;
+	color: #fff;
+	margin: 5px auto;
+}
+.myheader{
+	background-color: gray;
+	height: 50px;
+}
+.left,.middle,.right{
+	height: 400px;
+}
+.left{
+	width: 100px;
+	background-color: green;
+	float: left;
+	margin-right: 10px;
+}
+.middle{
+	width: 640px;
+	background-color: #bbb;
+	float: left;
+}
+.right{
+	width: 200px;
+	background-color: maroon;
+	float: right;
+}
+.myfooter{
+	background-color: black;
+	height: 30px;
+	clear: both;
+}

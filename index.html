@@ -8,7 +8,11 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <title>lyx is handsome</title>
 
-<link type="text/css" rel="stylesheet" href="default.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/responsive/index.css">
+<link rel="stylesheet" type="text/css" media="screen and (min-width:960px)" href="${pageContext.request.contextPath}/css/responsive/index-960.css">
+<link rel="stylesheet" type="text/css" media="screen and (min-width:641px) and (max-width: 959px)" href="${pageContext.request.contextPath}/css/responsive/index-641-959.css">
+<link rel="stylesheet" type="text/css" media="screen and (max-width:640px)" href="${pageContext.request.contextPath}/css/responsive/index-640.css">
+
 
 
 <style>
@@ -45,6 +49,19 @@ position:center;
 </head>
 
 <body>
+
+
+<div class="container">
+		<div class="myheader">myheader</div>
+		<div class="mybody">
+			<div class="left">left</div>
+			<div class="middle">middle</div>
+			<div class="right">right</div>
+		</div>
+		<div class="myfooter">footer</div>
+	</div>
+
+
 
 <div id="clock"></div>
 

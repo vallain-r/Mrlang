@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+.left,.right{
+	display: none;
+}
+.middle{
+	width: 100%;
+}
